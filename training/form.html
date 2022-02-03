@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- http://127.0.0.1:5500/training/form.html/userSignup -->
+
+    <!-- username=sanchitbajaj02&email=sanchitbajaj02%40gmail.com&pass=1234&color=%23ff0000&date=2022-02-04&tel=12345678 -->
+
+    <form>
+      <div style="margin-bottom: 10px">
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter username"
+          required
+        />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required
+        />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          maxlength="6"
+          minlength="2"
+          placeholder="Enter password"
+          required
+        />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <input type="date" name="date" id="date" />
+      </div>
+
+      <div style="margin-bottom: 10px">
+        <input type="number" name="tel" id="tel" />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
