@@ -1,0 +1,28 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.img-css {
+  width: 100%;
+  height: 40vh;
+  padding: 0.5rem 0;
+}
+
+#contact {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1rem;
+}
+
+#copyright {
+  background-color: #343a40;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
