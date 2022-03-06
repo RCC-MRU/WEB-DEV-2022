@@ -1,0 +1,33 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    overflow-x:hidden;
+  }
+  .row-flex {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0; 
+    /* 1rem */
+  }
+  
+  .img-css {
+    width: 100%;
+    height: 40vh;
+    padding: 0.5em  0;
+    /* 0.5em */
+  }
+  
+  #contact {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px;
+    /* 1px */
+  }
+  
+  #copyright {
+   margin-top: 0 ;
+    text-align: center;
+  }
+  
